@@ -11,16 +11,16 @@ class PostTableSeeder extends Seeder
      */
     public function run()
     {
-         $post = new \App\Post([
-            'title' => 'Learning Laravel',
-            'content' => 'This blog will get you right in the track with laravel'
-        ]);
-        $post->save();
+        //  $post = new \App\Post([
+        //     'title' => 'Learning Laravel',
+        //     'content' => 'This blog will get you right in the track with laravel'
+        // ]);
+        // $post->save();
 
-        $post = new \App\Post([
-            'title' => 'Learning Javascript',
-            'content' => 'Some Other content'
-        ]);
-        $post->save();
+        // $post = new \App\Post([
+        //     'title' => 'Learning Javascript',
+        //     'content' => 'Some Other content'
+        // ]);
+        // $post->save();
     }
 }
